@@ -1,0 +1,11 @@
+source activate hashing
+
+jupyter contrib nbextension install --user
+jupyter nbextension enable codefolding/main                                                                                           
+jupyter nbextension enable autosavetime/main                                                                                          
+jupyter nbextension enable execute_time/ExecuteTime                                                                                   
+jupyter nbextension enable scroll_down/main                                                                                           
+jupyter nbextension enable freeze/main                                                                                                
+jupyter nbextension enable codefolding/edit
+
+jupyter notebook --ip='0.0.0.0' --port=888${1} --no-browser

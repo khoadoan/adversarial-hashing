@@ -1,0 +1,13 @@
+source activate hashing
+
+jupyter contrib nbextension install --user
+jupyter nbextension enable codefolding/main
+
+# add library necessary for debugging
+export LD_LIBRARY_PATH="${LD_LIBRARY_PATH}:/usr/local/cuda/extras/CUPTI/lib64"
+
+# let's run a simple test
+python -c 'import tensorflow as tf; print(tf.__version__)'
+
+# start a jupyter notebook and bind port 888N where N is ID of the reserved GPU card
+CUDA_VISIBLE_DEVICES=0 jupyter notebook --ip='0.0.0.0' --port=888${1} --no-browser
