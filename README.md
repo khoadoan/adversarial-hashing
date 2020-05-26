@@ -1,8 +1,9 @@
 # Hashing Models
 
 This repository includes the adversarial autoencoder models for the following papers:
-* [Adversarial Factorization Autoencoder for Look-alike Modeling (CIKM'19)](https://dl.acm.org/doi/abs/10.1145/3357384.3357807)
+* [Image Hashing by Minimizing Discrete Component-wise Wasserstein Distance (arxiv'20)](https://arxiv.org/abs/2003.00134)
 * [Efficient Implicit Unsupervised Text Hashing using Adversarial Autoencoder (WWW'20)](https://dl.acm.org/doi/abs/10.1145/3366423.3380150)
+* [Adversarial Factorization Autoencoder for Look-alike Modeling (CIKM'19)](https://dl.acm.org/doi/abs/10.1145/3357384.3357807)
 
 ## 1. Setup
 
