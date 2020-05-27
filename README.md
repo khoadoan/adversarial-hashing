@@ -1,9 +1,22 @@
 # Hashing Models
 
 This repository includes the adversarial autoencoder models for the following papers:
+
 * [Image Hashing by Minimizing Discrete Component-wise Wasserstein Distance (arxiv'20)](https://arxiv.org/abs/2003.00134)
 * [Efficient Implicit Unsupervised Text Hashing using Adversarial Autoencoder (WWW'20)](https://dl.acm.org/doi/abs/10.1145/3366423.3380150)
 * [Adversarial Factorization Autoencoder for Look-alike Modeling (CIKM'19)](https://dl.acm.org/doi/abs/10.1145/3357384.3357807)
+
+Please cite the appropriate paper(s) if you are using this repository. If you have any questions, please also feel free to send us an email at khoadoan@vt.edu.
+
+## What does this reposistory has?
+
+This repository includes the following features:
+
+* Code to create the common experimental evaluations for the learning-to-hash task,
+* Various implemented ranking metrics for the learning-to-hash task.
+* Visualization code.
+* Several neural net models that were used in the original papers. *Note: due to time constraint, we will add/update the models gradually*
+* Adversarial training algorithm for learning the hash functions.
 
 ## 1. Setup
 
