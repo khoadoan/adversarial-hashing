@@ -8,7 +8,7 @@ This repository includes the adversarial autoencoder models for the following pa
 
 Please cite the appropriate paper(s) if you are using this repository. If you have any questions, please also feel free to send us an email at khoadoan@vt.edu.
 
-## What does this reposistory has?
+## What does this reposistory have?
 
 This repository includes the following features:
 
